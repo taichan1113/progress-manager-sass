@@ -1,0 +1,30 @@
+@import "config";
+@import "utilities";
+
+@import "nav";
+@import "chart";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
