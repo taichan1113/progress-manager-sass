@@ -12,14 +12,7 @@
     }
 
     &-buttons {
-      margin: 1rem 0;
-      display: flex;
-      justify-content: center;
-
-      button {
-        padding: 0.5rem 3rem;
-        margin: 0 3rem;
-      }
+      margin-top: 1rem;
     }
 
     &-comment {
@@ -32,6 +25,7 @@
         width: 80%;
         margin: 0 auto;
       }
+      
     }
   }
 }
