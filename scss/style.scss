@@ -1,9 +1,8 @@
-@import "config";
-@import "utilities";
+@import 'config';
+@import 'utilities';
 
-@import "nav";
-@import "chart";
-
+@import 'nav';
+@import 'chart';
 
 * {
   box-sizing: border-box;
@@ -28,3 +27,6 @@ ul {
   list-style: none;
 }
 
+i {
+  padding: 0 1rem;
+}
