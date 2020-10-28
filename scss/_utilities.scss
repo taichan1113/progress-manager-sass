@@ -3,6 +3,7 @@
   margin: 2rem 0;
   font-size: 2.5rem;
   color: $secondary-color;
+  display: inline-block;
 }
 
 // Container
@@ -31,6 +32,7 @@
   background: #fff;
   color: $dark-color;
   padding: 0.4rem 1.3rem;
+  margin: 0.5rem 0.5rem;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -60,6 +62,18 @@
     @include set-background($dark-color);
     &:hover {
       background: lighten($dark-color, 5%);
+    }
+  }
+  &-success {
+    @include set-background($success-color);
+    &:hover {
+      background: lighten($success-color, 5%);
+    }
+  }
+  &-danger {
+    @include set-background($danger-color);
+    &:hover {
+      background: lighten($danger-color, 5%);
     }
   }
 }
