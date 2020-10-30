@@ -9,8 +9,6 @@
 
     &-name {
       padding: 1rem 0;
-      // display: flex;
-      // justify-content: space-between;
       vertical-align: center;
     }
 
@@ -20,9 +18,13 @@
         margin-bottom: 1rem;
       }
       p {
-        padding-left: 1rem;
         width: 80%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1rem;
+        border-radius: 0.8rem;
+        border: solid 1px $dark-color;
+        @include set-background(lighten($light-color, 5%));
       }
     }
   }

@@ -3,6 +3,9 @@
 
 @import 'nav';
 @import 'chart';
+@import 'form';
+
+@import 'modal';
 
 * {
   box-sizing: border-box;
@@ -21,6 +24,7 @@ body {
 
 a {
   text-decoration: none;
+  color: $primary-color;
 }
 
 ul {
