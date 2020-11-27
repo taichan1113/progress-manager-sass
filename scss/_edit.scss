@@ -2,4 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  .task {
+  height: 500px;
+  min-width: 200px;
+  flex-grow: 0;
+  }
 }
+

@@ -1,4 +1,9 @@
 .form {
+  &-comment {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+  }
   &-group {
     margin: 1.2rem 0;
   }
@@ -15,5 +20,11 @@
     padding: 0.4rem;
     font-size: 1.2rem;
     border: 1px solid #ccc;
+    font-style: inherit;
+
+    &:focus {
+      border: solid 1px $dark-color;
+      outline: 0;
+    }
   }
 }
